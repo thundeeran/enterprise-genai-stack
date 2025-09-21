@@ -18,48 +18,7 @@ That’s what makes the difference between “spray-and-pray code edits” and *
 
 #### Diagram: Autonomous Agent Context
 
-```mermaid
-flowchart TB
-  classDef src fill:#E3F2FD,stroke:#1565C0,stroke-width:1px,color:#0D47A1,font-weight:bold;
-  classDef agent fill:#E8F5E9,stroke:#2E7D32,stroke-width:1px,color:#1B5E20,font-weight:bold;
-  classDef guard fill:#FFF3E0,stroke:#EF6C00,stroke-width:1px,color:#E65100,font-weight:bold;
-
-  subgraph Sources[Context Sources]
-    GH[GitHub Repos]:::src
-    CI[CI/CD Logs]:::src
-    Issues[Jira/Issues]:::src
-    Tests[Test Results]:::src
-    Sec[Security Policies]:::guard
-    Comp[Compliance Rules]:::guard
-  end
-
-  subgraph Aggregation[Context Aggregation]
-    Extract[Extract & Normalize]
-    Enrich[Enrich Metadata]
-    Embed[Embeddings/Index]
-  end
-
-  subgraph Agent[Headless Agent]
-    Plan[Plan]
-    Act[Act (Tools/APIs)]
-    Learn[Learn (Memory)]
-    Guard[Guardrails (IAM/DLP/Audit)]:::guard
-  end
-
-  GH --> Extract
-  CI --> Extract
-  Issues --> Extract
-  Tests --> Extract
-  Extract --> Enrich --> Embed --> Plan
-  Plan --> Act --> Learn --> Plan
-  Sec --> Guard
-  Comp --> Guard
-  Guard --> Act
-  Embed --> Agent
-```
-
 <div align="center">
-  <em>Image fallback:</em><br/>
   <img src="/diagrams/autonomous-agent-context.png" alt="Autonomous Agent Context" width="720"/>
 </div>
 
