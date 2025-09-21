@@ -16,7 +16,7 @@ A headless agent **only knows what you give it.** Without the right context, it�
 By aggregating signals from **GitHub repos, Jira issues, CI/CD logs, test results, and compliance policies**, we turn a headless agent into a **context-aware co-worker**.
 That’s what makes the difference between “spray-and-pray code edits” and **precise, enterprise-safe automation**.
 
-#### he Payoff
+#### The Payoff
 
 When headless agents are backed by strong context pipelines:
 
