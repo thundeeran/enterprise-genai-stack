@@ -58,6 +58,11 @@ flowchart TB
   Embed --> Agent
 ```
 
+<div align="center">
+  <em>Image fallback:</em><br/>
+  <img src="/diagrams/autonomous-agent-context.png" alt="Autonomous Agent Context" width="720"/>
+</div>
+
 #### The Payoff
 
 When headless agents are backed by strong context pipelines:
