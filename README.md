@@ -57,6 +57,26 @@ enterprise-genai-stack/
 
 ---
 
+## **Posts & Articles**
+
+*Daily LinkedIn posts and weekly deep-dives exploring enterprise GenAI implementation patterns*
+
+| Date | Title | Description |
+|------|-------|-------------|
+| 2025-09-21 | [Why Context is Critical for Headless Agent Integration](posts/2025-09-21-why-context-is-critical.md) | How context aggregation transforms headless agents from scripts into trusted teammates in the SDLC |
+| 2025-09-22 | [What is Context Aggregation? A Primer for Developers](posts/2025-09-22-what-is-context-aggregation.md) | Understanding the foundation of reliable GenAI: collecting and structuring signals for informed AI decisions |
+
+### **Working Demo**
+
+📁 **[Context Aggregation Demo](examples/context-agg-demo/)** - A complete 3-file implementation showing end-to-end context → prompt → diff → patch workflow.
+
+```bash
+cd examples/context-agg-demo
+python3 demo.py
+```
+
+---
+
 ## **Example Diagram**
 
 *(Context aggregation for autonomous agents in SDLC)*
