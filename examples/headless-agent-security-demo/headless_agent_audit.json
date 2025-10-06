@@ -1,0 +1,139 @@
+[
+  {
+    "timestamp": "2025-10-06T02:31:37.911201",
+    "agent_id": "agent-101",
+    "action": "repo_access",
+    "repo": "secure-repo",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "7ba6d37114a03460"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.911765",
+    "agent_id": "agent-101",
+    "action": "file_create",
+    "repo": "secure-repo",
+    "resource": "config.yaml",
+    "success": true,
+    "details": {
+      "commit_id": "commit-1759735897",
+      "content_hash": "32bf300787aa3cd56b94fdd8d115db53"
+    },
+    "signature": "f03a18287df9452a"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.911946",
+    "agent_id": "agent-101",
+    "action": "repo_access",
+    "repo": "secure-repo",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "5dbbc63192b2b7cf"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.912267",
+    "agent_id": "agent-101",
+    "action": "file_update",
+    "repo": "secure-repo",
+    "resource": "config.yaml",
+    "success": true,
+    "details": {
+      "commit_id": "commit-1759735897",
+      "original_hash": "32bf300787aa3cd56b94fdd8d115db53",
+      "new_hash": "30d84fef49084b0b5c8a8aef1f57ffcb"
+    },
+    "signature": "0270d34eec960c85"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.912462",
+    "agent_id": "agent-102",
+    "action": "repo_access",
+    "repo": "secure-repo",
+    "resource": "access_check",
+    "success": false,
+    "details": {
+      "reason": "unauthorized"
+    },
+    "signature": "6ed73e1b9b3b15f3"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.912622",
+    "agent_id": "agent-101",
+    "action": "repo_access",
+    "repo": "sd-agentic-lab",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "9dd366002e7bd533"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.912902",
+    "agent_id": "agent-103",
+    "action": "repo_access",
+    "repo": "public-docs",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "caa8c731db0f312d"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.913055",
+    "agent_id": "agent-102",
+    "action": "repo_access",
+    "repo": "sd-agentic-lab",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "3ddc0fe29eababb2"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.913356",
+    "agent_id": "agent-102",
+    "action": "file_create",
+    "repo": "sd-agentic-lab",
+    "resource": "feature.py",
+    "success": true,
+    "details": {
+      "commit_id": "commit-1759735897",
+      "content_hash": "9e2f0ff6b0d4e793fea587449fba08db"
+    },
+    "signature": "f99ac2910288a490"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.913760",
+    "agent_id": "agent-103",
+    "action": "repo_access",
+    "repo": "public-docs",
+    "resource": "access_check",
+    "success": true,
+    "details": {
+      "reason": "authorized"
+    },
+    "signature": "38d2e5be461d99dd"
+  },
+  {
+    "timestamp": "2025-10-06T02:31:37.914083",
+    "agent_id": "agent-103",
+    "action": "file_create",
+    "repo": "public-docs",
+    "resource": "guide.md",
+    "success": true,
+    "details": {
+      "commit_id": "commit-1759735897",
+      "content_hash": "72e35e33f394fe70bad78064a0cec334"
+    },
+    "signature": "1d9fc4332124c70c"
+  }
+]
